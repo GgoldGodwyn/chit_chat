@@ -17,7 +17,7 @@ Chit_Chat is a simple arduino-server chat bot, designed to demonstrate communica
 ## Example (Optional)
 
 ```json
-// code away!
+// json parameter!
 
 {
     "key" : "34@_rteyknjvs#25x",
