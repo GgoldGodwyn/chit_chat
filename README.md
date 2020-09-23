@@ -13,7 +13,7 @@ Chit_Chat is a simple arduino-server chat bot, designed to demonstrate communica
 
 - [Testing](#Test Endpoint)
 - [Installation](#installation)
-- [Contributing](#contributing)
+
 ---
 
 
