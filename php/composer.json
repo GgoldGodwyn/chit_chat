@@ -1,0 +1,18 @@
+{
+    "name": "godwin/patricia-arduino",
+    "description": "A simple package to demonstrate communication between an Arduino and a web server",
+    "authors": [
+        {
+            "name": "Godwin",
+            "email": "ogboyegodwin@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
