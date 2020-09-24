@@ -68,6 +68,20 @@ Chit_Chat is a simple arduino-server chat bot, designed to demonstrate communica
 ```
 
 ---
+## Chat words and Answers
+### Word-------------------------Answer
+- hello------------------------------hi
+- how are you doing----------am fine. doing great!!
+- what is your name----------am godwin's robot called chit chat
+- what a lovely name---------that not a name
+- how old are you------------am was created by O. godwin. please ask him
+- bye------------------------am pleased, dont go yet, i have got some info i wid love to share with you
+- did you go to school-------we are on vacation
+ 'bla bla bla' --------------i dont understand
+---
+
+
+
 ## Installation
 
 - Clone this repo to your local machine using `https://github.com/GgoldGodwyn/chit_chat`
