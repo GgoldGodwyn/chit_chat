@@ -20,13 +20,13 @@ class QuestionGame
             return "we are on vacation\n";
         break;
         case 3:
-            return "am godwin's robot\n";
+            return "am godwin's robot called chit chat\n";
         break;
         case 4:
             return "that not a name\n";
         break;
         case 5:
-            return "am was created 22nd-08-2019\n";
+            return "am was created by O. godwin. please ask him\n";
         break;
         case 6:
             return "am pleased, dont go yet, i have got some info i wid love to share with you\n";
@@ -45,7 +45,7 @@ class QuestionGame
     $write=1;
     else if(strcmp("did you go to school",$n)==0)
     $write=2;
-    else if(strcmp("what is you name",$n)==0)
+    else if(strcmp("what is your name",$n)==0)
     $write=3;
     else if(strcmp("what a lovely name",$n)==0)
     $write=4;
