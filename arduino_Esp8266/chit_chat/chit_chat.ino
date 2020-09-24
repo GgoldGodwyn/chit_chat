@@ -74,17 +74,17 @@ void setup() {
   Serial.begin(115200);
 
   
-  WiFi.begin(ssid, password);
+  WiFi.begin(ssid, password); // connect to existing Wifi connection
   Serial.println("Connecting");
   while(WiFi.status() != WL_CONNECTED) {
     delay(500);
-    Serial.print(".");
+    Serial.print(".");// output "," to serial monitor untill it is connected
   }
   Serial.println("");
   Serial.print("Connected to WiFi network with IP Address: ");
   Serial.println(WiFi.localIP());
  
-  while(authenticateUser()==0);
+  while(authenticateUser()==0); // wait until the right password is entered
 
   
   Serial.println("Now you can chat with ChitChat\n");
@@ -95,11 +95,11 @@ void loop() {
     //Check WiFi connection status
     if(WiFi.status()== WL_CONNECTED){
 
-      while(Serial.available()){
-        c=Serial.read();
-        if(c=='\n' || c =='\r'){
+      while(Serial.available()){ // if user has entered something from the terminal
+        c=Serial.read(); // read it
+        if(c=='\n' || c =='\r'){ 
           go=1;
-          delay(200);
+          delay(200); //wait to make sure all juncks are recieved
         while(Serial.available())
         c=Serial.read(); // waste other incomming eg: /r/n
           }
@@ -160,11 +160,11 @@ the below function take two parameter,
 uses the "dURL" to connect to the API
 and "jsonData" as a json to post the request.
 
- it respond with a string response from the server
+ it returns with a string response from the server to any call
 */
 
 String PostRequest(const char* dURL, const char* jsonData) { 
-  HTTPClient http;
+  HTTPClient http;  //create instance of HTTPClient
     
   // Your IP address with path or Domain name with URL path 
   http.begin(dURL);
