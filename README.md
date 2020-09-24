@@ -74,6 +74,7 @@ Chit_Chat is a simple arduino-server chat bot, designed to demonstrate communica
 - Compile and install chit_chat.ino into ESP8266
 - Open serial monitor
 - Set baud rate to 115200bps
+- Enter your password (default password is degree360) from the terminal and press the "Enter" key
 - Enter your desired question from the terminal and press the "Enter" key
 - you should get response from the server if question entered is within servers scope
 
